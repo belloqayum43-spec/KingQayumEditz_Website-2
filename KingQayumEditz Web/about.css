@@ -1,0 +1,189 @@
+.whatsapp-btn{
+    display:inline-block;
+
+    background:#25D366;
+
+    color:white;
+
+    padding:15px 25px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    margin-top:20px;
+}
+
+.contact-hero{
+    text-align:center;
+    padding:120px 8% 60px;
+}
+
+.contact-hero h1{
+    font-size:70px;
+    margin-bottom:20px;
+}
+
+.contact-hero p{
+    color:#999;
+    max-width:700px;
+    margin:auto;
+}
+
+.contact-container{
+    padding:60px 8% 100px;
+
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    gap:60px;
+}
+
+.contact-info h2{
+    margin-bottom:30px;
+}
+
+.contact-info p{
+    margin-bottom:20px;
+    color:#aaa;
+}
+
+.contact-form form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+
+    background:#111;
+
+    border:1px solid #222;
+
+    padding:18px;
+
+    color:white;
+
+    border-radius:12px;
+}
+
+.contact-form textarea{
+    height:180px;
+    resize:none;
+}
+
+@media(max-width:768px){
+
+.contact-container{
+    grid-template-columns:1fr;
+}
+
+.contact-hero h1{
+    font-size:48px;
+}
+
+}
+
+.services-hero{
+    text-align:center;
+    padding:120px 8% 80px;
+}
+
+.services-hero h1{
+    font-size:70px;
+}
+
+.services-hero p{
+    color:#999;
+    max-width:700px;
+    margin:auto;
+}
+
+.services-page-grid{
+    padding:0 8% 100px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.process{
+    padding:100px 8%;
+}
+
+.process h2,
+.pricing h2{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.process-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.process-card{
+    background:#111;
+    padding:30px;
+    border-radius:20px;
+}
+
+.process-card span{
+    color:#C7FF2F;
+    font-size:40px;
+    font-weight:700;
+}
+
+.pricing{
+    padding:100px 8%;
+}
+
+.pricing-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.price-card{
+    background:#111;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.price-card h1{
+    color:#C7FF2F;
+    margin:20px 0;
+}
+
+.featured-price{
+    border:2px solid #C7FF2F;
+}
+
+@media(max-width:768px){
+
+.services-page-grid,
+.process-grid,
+.pricing-grid{
+    grid-template-columns:1fr;
+}
+
+.services-hero h1{
+    font-size:48px;
+}
+
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+.abbtn{
+    display:inline-block;
+    background:#C7FF2F;
+    color:#000;
+    padding:18px 40px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:700;
+}
